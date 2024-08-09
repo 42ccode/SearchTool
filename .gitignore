@@ -1,0 +1,83 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+*.pyd
+*.so
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Sensitive data files
+*.env
+.env.*
+config.json
+secrets.json
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific files
+*~
+
+# Specific directories
+logs/
+tmp/
+temp/
+media/
+uploads/
+
+# Ignore test databases
+test.db
+test.sqlite3
+
+# Ignore secrets file
+secrets/
+
+# Ignore anything in this file
+# Put any custom rules below
